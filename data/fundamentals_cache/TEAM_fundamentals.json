@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TEAM",
-    "fetch_date": "2026-04-21T14:56:17.449326",
+    "fetch_date": "2026-05-01T14:39:37.131344",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": 1286463000.0,
       "2025-03-31 00:00:00": 1356716000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -3.01,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-21T14:56:17.450493"
+  "fetched_at": "2026-05-01T14:39:37.132667"
 }

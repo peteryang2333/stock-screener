@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ICFI",
-    "fetch_date": "2026-04-17T14:16:41.677251",
+    "fetch_date": "2026-05-01T14:13:06.054751",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 496324000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 6.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-17T14:16:41.678573"
+  "fetched_at": "2026-05-01T14:13:06.056099"
 }

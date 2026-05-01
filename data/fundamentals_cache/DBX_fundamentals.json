@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DBX",
-    "fetch_date": "2026-04-21T14:17:28.231682",
+    "fetch_date": "2026-05-01T14:00:50.978351",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 643600000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 24.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-21T14:17:28.232853"
+  "fetched_at": "2026-05-01T14:00:50.979667"
 }

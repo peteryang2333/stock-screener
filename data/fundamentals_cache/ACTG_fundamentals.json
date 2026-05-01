@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACTG",
-    "fetch_date": "2026-04-20T14:03:26.771508",
+    "fetch_date": "2026-05-01T13:45:32.903200",
     "quarterly_revenue": {
       "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": 48844000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.53,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-04-20T14:03:26.773374"
+  "fetched_at": "2026-05-01T13:45:32.905013"
 }
