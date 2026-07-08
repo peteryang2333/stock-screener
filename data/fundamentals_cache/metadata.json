@@ -4252,7 +4252,7 @@
     "in_earnings_season": true
   },
   "MPAA": {
-    "last_updated": "2026-04-08T14:28:35.949378",
+    "last_updated": "2026-07-08T15:08:50.718220",
     "in_earnings_season": false
   },
   "MPC": {
@@ -8768,7 +8768,7 @@
     "in_earnings_season": true
   },
   "AMCI": {
-    "last_updated": "2026-02-27T13:19:05.525839",
+    "last_updated": "2026-07-08T14:34:55.469415",
     "in_earnings_season": false
   },
   "BSY": {
@@ -9733,6 +9733,14 @@
   },
   "NTSK": {
     "last_updated": "2026-07-07T15:34:03.870783",
+    "in_earnings_season": false
+  },
+  "ABUS": {
+    "last_updated": "2026-07-08T14:32:16.480498",
+    "in_earnings_season": false
+  },
+  "PTRN": {
+    "last_updated": "2026-07-08T15:17:56.798900",
     "in_earnings_season": false
   }
 }
