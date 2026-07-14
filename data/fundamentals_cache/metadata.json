@@ -7948,7 +7948,7 @@
     "in_earnings_season": false
   },
   "GNE": {
-    "last_updated": "2026-01-13T13:28:43.505727",
+    "last_updated": "2026-07-14T14:26:53.318871",
     "in_earnings_season": false
   },
   "TRC": {
@@ -9761,6 +9761,10 @@
   },
   "IBRX": {
     "last_updated": "2026-07-13T15:19:53.771117",
+    "in_earnings_season": false
+  },
+  "UFI": {
+    "last_updated": "2026-07-14T14:59:56.384605",
     "in_earnings_season": false
   }
 }
