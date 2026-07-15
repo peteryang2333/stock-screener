@@ -1,11 +1,19 @@
 {
   "data": {
     "ticker": "FAC",
-    "fetch_date": "2026-06-12T15:52:47.769767",
-    "quarterly_eps": {
-      "2026-03-31 00:00:00": -0.07983
+    "fetch_date": "2026-07-15T14:20:50.295780",
+    "quarterly_revenue": {
+      "2025-03-31 00:00:00": 0.0,
+      "2026-03-31 00:00:00": 0.0
     },
+    "revenue_qoq_change": null,
+    "quarterly_eps": {
+      "2025-03-31 00:00:00": -0.120254,
+      "2026-03-31 00:00:00": -0.080123
+    },
+    "eps_qoq_change": 33.37186289021571,
+    "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-12T15:52:47.770044"
+  "fetched_at": "2026-07-15T14:20:50.296629"
 }

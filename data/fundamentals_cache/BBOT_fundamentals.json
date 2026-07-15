@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BBOT",
-    "fetch_date": "2026-05-20T15:51:28.829722",
+    "fetch_date": "2026-07-15T14:06:00.405033",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-20T15:51:28.830706"
+  "fetched_at": "2026-07-15T14:06:00.405907"
 }

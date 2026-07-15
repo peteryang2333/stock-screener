@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNDX",
-    "fetch_date": "2026-05-11T16:21:59.779013",
+    "fetch_date": "2026-07-15T14:56:15.979988",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 20042000.0,
       "2025-06-30 00:00:00": 37958000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.539,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T16:21:59.781659"
+  "fetched_at": "2026-07-15T14:56:15.981479"
 }

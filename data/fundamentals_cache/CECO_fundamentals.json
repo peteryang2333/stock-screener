@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CECO",
-    "fetch_date": "2026-05-12T14:53:14.377335",
+    "fetch_date": "2026-07-15T14:11:02.528977",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 176697000.0,
@@ -26,7 +26,6 @@
     "margin_change": -4.07,
     "operating_margin": 5.9,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 52919000.0,
       "2025-06-30 00:00:00": 59792000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.292,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-12T14:53:14.379109"
+  "fetched_at": "2026-07-15T14:11:02.530470"
 }
