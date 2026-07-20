@@ -3010,5 +3010,45 @@
   "ULTA": {
     "last_updated": "2026-07-17T14:52:22.201340",
     "in_earnings_season": true
+  },
+  "BFC": {
+    "last_updated": "2026-07-20T14:31:28.051140",
+    "in_earnings_season": true
+  },
+  "CALX": {
+    "last_updated": "2026-07-20T14:34:23.040402",
+    "in_earnings_season": true
+  },
+  "INTG": {
+    "last_updated": "2026-07-20T14:53:23.232675",
+    "in_earnings_season": true
+  },
+  "NP": {
+    "last_updated": "2026-07-20T15:03:37.244292",
+    "in_earnings_season": true
+  },
+  "QLYS": {
+    "last_updated": "2026-07-20T15:10:25.673688",
+    "in_earnings_season": true
+  },
+  "RCEL": {
+    "last_updated": "2026-07-20T15:11:04.355815",
+    "in_earnings_season": true
+  },
+  "RH": {
+    "last_updated": "2026-07-20T15:11:50.077137",
+    "in_earnings_season": true
+  },
+  "TECH": {
+    "last_updated": "2026-07-20T15:18:51.575597",
+    "in_earnings_season": true
+  },
+  "TLK": {
+    "last_updated": "2026-07-20T15:19:31.483127",
+    "in_earnings_season": true
+  },
+  "TNET": {
+    "last_updated": "2026-07-20T15:19:50.512346",
+    "in_earnings_season": true
   }
 }
