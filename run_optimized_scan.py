@@ -17,6 +17,7 @@ Usage:
 """
 
 import argparse
+import json
 import logging
 import sys
 from datetime import datetime
@@ -276,6 +277,55 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     logger.info(f"Report saved: {filepath}")
     print(report_text)
+
+    # ---- machine-readable signals -------------------------------------
+    # The report above is for humans. Downstream consumers (the
+    # peter-research dashboard) need structured data, so publish the same
+    # signals as JSON. data/daily_scans/** is already whitelisted in
+    # .gitignore and the daily workflow commits it, so this lands on main
+    # and is fetchable as raw JSON without any auth.
+    def _slim(sig):
+        det = sig.get('details') or {}
+        vcp = det.get('vcp_data') or {}
+        return {
+            'ticker': sig.get('ticker'),
+            'score': sig.get('score'),
+            # buys score out of 125, sells out of 110
+            'score_max': 110 if 'severity' in sig else 125,
+            'phase': sig.get('phase'),
+            'entry_quality': sig.get('entry_quality'),
+            'severity': sig.get('severity'),
+            'breakout_price': sig.get('breakout_price'),
+            'breakdown_level': sig.get('breakdown_level'),
+            'stop_loss': sig.get('stop_loss') or det.get('stop_loss'),
+            'target': det.get('reward_target'),
+            'risk_reward_ratio': (sig.get('risk_reward_ratio')
+                                  or det.get('risk_reward_ratio')),
+            'rs_slope': det.get('rs_slope'),
+            'volume_ratio': (det.get('volume_ratio')
+                             or vcp.get('breakout_volume_ratio')),
+            'vcp_quality': vcp.get('quality'),
+            'minervini_template_score': sig.get('minervini_template_score'),
+            'reasons': (sig.get('reasons') or [])[:7],
+        }
+
+    signals = {
+        'scan_date': date_str,
+        'generated_at': datetime.now().isoformat(timespec='seconds'),
+        'universe': results.get('total_processed'),
+        'analyzed': results.get('total_analyzed'),
+        'buy_n': len(buy_signals),
+        'sell_n': len(sell_signals),
+        'spy_trend': (spy_analysis or {}).get('trend'),
+        'breadth': (breadth or {}).get('breadth_quality'),
+        'buys': [_slim(s) for s in buy_signals[:60]],
+        'sells': [_slim(s) for s in sell_signals[:30]],
+    }
+    signals_path = Path(output_dir) / "latest_signals.json"
+    with open(signals_path, 'w') as f:
+        json.dump(signals, f, ensure_ascii=False, indent=1)
+    logger.info(f"Signals JSON saved: {signals_path} "
+                f"({len(signals['buys'])} buys, {len(signals['sells'])} sells)")
 
     return filepath
 
