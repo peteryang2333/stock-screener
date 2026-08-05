@@ -129,6 +129,11 @@ jobs:
           # Add fundamental cache directory
           git add data/fundamentals_cache/
 
+          # Add the daily scan output. .gitignore already whitelists
+          # data/daily_scans/**; without this the signals JSON only ever
+          # existed inside the run artifact, so nothing could consume it.
+          git add data/daily_scans/
+
           # Check if there are changes
           if git diff --staged --quiet; then
             echo "No fundamental cache changes to commit"
@@ -136,7 +141,7 @@ jobs:
           else
             CHANGED_FILES=$(git diff --staged --name-only | wc -l)
             echo "Committing $CHANGED_FILES updated fundamental files"
-            git commit -m "chore: update fundamental cache ($CHANGED_FILES stocks) - ${{ steps.date.outputs.date }}"
+            git commit -m "chore: daily scan + fundamental cache ($CHANGED_FILES files) - ${{ steps.date.outputs.date }}"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
 
