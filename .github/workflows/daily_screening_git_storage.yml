@@ -17,6 +17,7 @@ on:
 jobs:
   screen-stocks:
     runs-on: ubuntu-latest
+    timeout-minutes: 150
 
     permissions:
       contents: write  # Required to commit fundamental cache
