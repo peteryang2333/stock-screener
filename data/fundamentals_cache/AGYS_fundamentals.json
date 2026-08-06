@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AGYS",
-    "fetch_date": "2026-07-29T14:26:54.939625",
+    "fetch_date": "2026-08-06T13:54:03.484091",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 76675000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:26:54.940959"
+  "fetched_at": "2026-08-06T13:54:03.485906"
 }

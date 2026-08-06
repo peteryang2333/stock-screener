@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "JJSF",
-    "fetch_date": "2026-07-29T14:55:42.394648",
+    "fetch_date": "2026-08-06T14:22:54.528723",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 356099000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.498,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:55:42.395897"
+  "fetched_at": "2026-08-06T14:22:54.531842"
 }

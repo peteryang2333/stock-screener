@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALTG",
-    "fetch_date": "2026-07-29T14:27:58.976292",
+    "fetch_date": "2026-08-06T13:55:07.292968",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 423000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 1.16,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:27:58.977496"
+  "fetched_at": "2026-08-06T13:55:07.294772"
 }

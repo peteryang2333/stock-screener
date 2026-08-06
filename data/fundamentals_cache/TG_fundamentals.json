@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TG",
-    "fetch_date": "2026-07-15T14:59:27.003632",
+    "fetch_date": "2026-08-06T14:47:27.023194",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 164738000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.451,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:59:27.005154"
+  "fetched_at": "2026-08-06T14:47:27.025097"
 }

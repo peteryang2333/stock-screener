@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FISI",
-    "fetch_date": "2026-07-29T14:46:44.266784",
+    "fetch_date": "2026-08-06T14:13:54.861078",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 56822000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 22.352941176470594,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:46:44.267367"
+  "fetched_at": "2026-08-06T14:13:54.861878"
 }

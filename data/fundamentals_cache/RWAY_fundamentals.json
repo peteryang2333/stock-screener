@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RWAY",
-    "fetch_date": "2026-05-26T16:48:20.715616",
+    "fetch_date": "2026-08-06T14:41:26.636488",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 4828000.0,
       "2025-06-30 00:00:00": 20486000.0,
@@ -22,5 +22,5 @@
     "eps_yoy_change": -2020.0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-26T16:48:20.716272"
+  "fetched_at": "2026-08-06T14:41:26.637195"
 }
