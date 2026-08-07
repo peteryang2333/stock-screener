@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REPX",
-    "fetch_date": "2026-07-30T15:09:56.318940",
+    "fetch_date": "2026-08-07T13:38:59.476988",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 102457000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.07,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:09:56.320311"
+  "fetched_at": "2026-08-07T13:38:59.478501"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WABC",
-    "fetch_date": "2026-07-30T15:22:44.954281",
+    "fetch_date": "2026-08-07T13:51:44.841227",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 66416000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 4.4642857142856975,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:22:44.954893"
+  "fetched_at": "2026-08-07T13:51:44.841852"
 }

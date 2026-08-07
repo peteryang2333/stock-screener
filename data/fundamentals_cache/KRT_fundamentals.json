@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KRT",
-    "fetch_date": "2026-07-30T14:54:20.162304",
+    "fetch_date": "2026-08-07T13:23:20.178171",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 103624000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.684,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:54:20.163693"
+  "fetched_at": "2026-08-07T13:23:20.179672"
 }

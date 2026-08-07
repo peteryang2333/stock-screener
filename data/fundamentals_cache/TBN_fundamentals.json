@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TBN",
-    "fetch_date": "2026-07-30T15:16:58.371826",
+    "fetch_date": "2026-08-07T13:46:02.390358",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.0,
@@ -27,5 +27,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T15:16:58.372856"
+  "fetched_at": "2026-08-07T13:46:02.391457"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CQP",
-    "fetch_date": "2026-07-15T14:13:54.873148",
+    "fetch_date": "2026-08-07T13:05:33.196655",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2989000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.042,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T14:13:54.874660"
+  "fetched_at": "2026-08-07T13:05:33.198201"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LOCO",
-    "fetch_date": "2026-07-30T14:56:10.152774",
+    "fetch_date": "2026-08-07T13:25:10.183984",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 119177000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.013,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:56:10.154113"
+  "fetched_at": "2026-08-07T13:25:10.185512"
 }

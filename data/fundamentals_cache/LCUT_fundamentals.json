@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LCUT",
-    "fetch_date": "2026-07-30T14:55:03.316837",
+    "fetch_date": "2026-08-07T13:24:03.162960",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 140085000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.326,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:55:03.318177"
+  "fetched_at": "2026-08-07T13:24:03.164554"
 }

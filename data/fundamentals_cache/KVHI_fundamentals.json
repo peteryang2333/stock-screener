@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KVHI",
-    "fetch_date": "2026-07-30T14:54:34.063361",
+    "fetch_date": "2026-08-07T13:23:33.949539",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 25414000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.409,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:54:34.064741"
+  "fetched_at": "2026-08-07T13:23:33.951030"
 }

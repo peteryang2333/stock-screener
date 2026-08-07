@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCRI",
-    "fetch_date": "2026-07-30T14:57:45.204966",
+    "fetch_date": "2026-08-07T13:26:44.062718",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.058,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-30T14:57:45.206337"
+  "fetched_at": "2026-08-07T13:26:44.064213"
 }
