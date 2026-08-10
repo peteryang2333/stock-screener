@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IIIN",
-    "fetch_date": "2026-07-31T14:53:48.566423",
+    "fetch_date": "2026-08-10T13:24:02.556089",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 179886000.0,
       "2025-09-30 00:00:00": 177444000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.845,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:53:48.567879"
+  "fetched_at": "2026-08-10T13:24:02.558574"
 }

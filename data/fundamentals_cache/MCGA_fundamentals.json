@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MCGA",
-    "fetch_date": "2026-07-21T14:44:56.070101",
+    "fetch_date": "2026-08-10T13:30:39.408667",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 0.0,
       "2025-09-30 00:00:00": 0.0,
@@ -17,5 +17,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-21T14:44:56.071065"
+  "fetched_at": "2026-08-10T13:30:39.409565"
 }

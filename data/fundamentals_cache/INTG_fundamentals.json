@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INTG",
-    "fetch_date": "2026-07-31T14:54:31.536431",
+    "fetch_date": "2026-08-10T13:24:45.602062",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 16824000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 20.91,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-31T14:54:31.537586"
+  "fetched_at": "2026-08-10T13:24:45.603520"
 }
