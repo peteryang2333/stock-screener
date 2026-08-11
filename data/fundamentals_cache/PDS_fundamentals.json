@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PDS",
-    "fetch_date": "2026-08-03T15:39:48.426437",
+    "fetch_date": "2026-08-11T13:34:48.970069",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 406615000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.121,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-03T15:39:48.427975"
+  "fetched_at": "2026-08-11T13:34:48.971954"
 }
