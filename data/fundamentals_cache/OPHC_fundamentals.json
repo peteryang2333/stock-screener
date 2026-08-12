@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OPHC",
-    "fetch_date": "2026-08-04T15:14:15.478819",
+    "fetch_date": "2026-08-12T13:38:26.978222",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 10657000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": -3.4482758620689493,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T15:14:15.479480"
+  "fetched_at": "2026-08-12T13:38:26.978916"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NSSC",
-    "fetch_date": "2026-08-04T15:12:08.459030",
+    "fetch_date": "2026-08-12T13:36:20.006682",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 43961000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.679,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T15:12:08.460515"
+  "fetched_at": "2026-08-12T13:36:20.008759"
 }

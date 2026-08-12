@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PLAB",
-    "fetch_date": "2026-08-04T15:16:39.458654",
+    "fetch_date": "2026-08-12T13:40:51.972574",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 210992000.0,
       "2025-07-31 00:00:00": 210394000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.323,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T15:16:39.460165"
+  "fetched_at": "2026-08-12T13:40:51.974368"
 }

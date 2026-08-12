@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AMPG",
-    "fetch_date": "2026-08-04T14:35:28.436119",
+    "fetch_date": "2026-08-12T12:59:36.404356",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 3599099.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 1.844,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:35:28.438369"
+  "fetched_at": "2026-08-12T12:59:36.406226"
 }

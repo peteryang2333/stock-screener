@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GAP",
-    "fetch_date": "2026-08-04T14:55:38.429965",
+    "fetch_date": "2026-08-12T13:19:49.608873",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 3463000000.0,
       "2025-07-31 00:00:00": 3725000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.599,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T14:55:38.431442"
+  "fetched_at": "2026-08-12T13:19:49.610788"
 }

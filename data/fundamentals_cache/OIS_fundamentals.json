@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OIS",
-    "fetch_date": "2026-08-04T15:13:37.483866",
+    "fetch_date": "2026-08-12T13:37:49.020209",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 165406000.0,
@@ -13,15 +13,15 @@
     "revenue_qoq_change": 7.77089080440002,
     "revenue_yoy_change": -5.288199944379285,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
-      "2025-06-30 00:00:00": 0.05,
+      "2025-03-31 00:00:00": 0.05,
+      "2025-06-30 00:00:00": NaN,
       "2025-09-30 00:00:00": 0.03,
       "2025-12-31 00:00:00": -2.04,
       "2026-03-31 00:00:00": 0.02,
       "2026-06-30 00:00:00": 0.1
     },
     "eps_qoq_change": 400.0,
-    "eps_yoy_change": 100.0,
+    "eps_yoy_change": null,
     "gross_margin": 19.56,
     "margin_change": 1.96,
     "operating_margin": 7.48,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.338,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T15:13:37.485371"
+  "fetched_at": "2026-08-12T13:37:49.022032"
 }
