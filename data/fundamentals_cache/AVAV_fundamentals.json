@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVAV",
-    "fetch_date": "2026-08-05T14:21:18.904933",
+    "fetch_date": "2026-08-13T13:03:11.111073",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 275050000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.488,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-05T14:21:18.906115"
+  "fetched_at": "2026-08-13T13:03:11.112875"
 }
