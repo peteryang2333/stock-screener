@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MDGL",
-    "fetch_date": "2026-08-07T13:26:51.998567",
+    "fetch_date": "2026-08-14T13:29:05.031507",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 212802000.0,
       "2025-09-30 00:00:00": 287268000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.273,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:26:52.000042"
+  "fetched_at": "2026-08-14T13:29:05.033194"
 }

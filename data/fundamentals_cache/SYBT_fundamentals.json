@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SYBT",
-    "fetch_date": "2026-08-07T13:45:42.749179",
+    "fetch_date": "2026-08-14T13:47:54.105221",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 95839000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 13.913043478260883,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:45:42.750438"
+  "fetched_at": "2026-08-14T13:47:54.105897"
 }

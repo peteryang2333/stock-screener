@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "VLTO",
-    "fetch_date": "2026-08-07T13:50:47.644794",
+    "fetch_date": "2026-08-14T13:52:59.052067",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1371000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.228,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:50:47.646299"
+  "fetched_at": "2026-08-14T13:52:59.053949"
 }

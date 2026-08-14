@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "COGT",
-    "fetch_date": "2026-08-06T14:05:59.117081",
+    "fetch_date": "2026-08-14T13:07:13.466030",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:05:59.118070"
+  "fetched_at": "2026-08-14T13:07:13.466957"
 }

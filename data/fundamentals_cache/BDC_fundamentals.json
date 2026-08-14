@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BDC",
-    "fetch_date": "2026-08-07T12:58:24.901657",
+    "fetch_date": "2026-08-14T13:00:35.254532",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.561,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T12:58:24.903174"
+  "fetched_at": "2026-08-14T13:00:35.256383"
 }

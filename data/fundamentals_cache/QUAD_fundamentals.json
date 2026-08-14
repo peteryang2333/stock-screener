@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QUAD",
-    "fetch_date": "2026-08-07T13:38:02.392887",
+    "fetch_date": "2026-08-14T13:40:14.814141",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 571900000.0,
       "2025-09-30 00:00:00": 588000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.27,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:38:02.394398"
+  "fetched_at": "2026-08-14T13:40:14.815858"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HIG",
-    "fetch_date": "2026-08-06T14:18:53.312777",
+    "fetch_date": "2026-08-14T13:20:07.603686",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 36.046511627906966,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:18:53.313504"
+  "fetched_at": "2026-08-14T13:20:07.604374"
 }

@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "CBOE",
-    "fetch_date": "2026-08-06T14:03:09.013435",
+    "fetch_date": "2026-08-14T13:04:22.408090",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 1195000000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1173500000.0,
       "2025-09-30 00:00:00": 1141700000.0,
       "2025-12-31 00:00:00": 1204000000.0,
       "2026-03-31 00:00:00": 1272800000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 1442800000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 13.356379635449404,
+    "revenue_yoy_change": 22.948444823178527,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2.37,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": -8.469945355191259,
     "eps_yoy_change": null,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 39.98,
+    "margin_change": -7.23,
+    "operating_margin": 32.99,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:03:09.015604"
+  "fetched_at": "2026-08-14T13:04:22.409620"
 }

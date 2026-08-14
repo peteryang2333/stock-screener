@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UVE",
-    "fetch_date": "2026-08-07T13:50:03.601015",
+    "fetch_date": "2026-08-14T13:52:15.012334",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 68.59504132231406,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:50:03.601666"
+  "fetched_at": "2026-08-14T13:52:15.013015"
 }

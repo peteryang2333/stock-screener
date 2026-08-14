@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WCC",
-    "fetch_date": "2026-08-07T13:51:54.388034",
+    "fetch_date": "2026-08-14T13:54:07.032811",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.663,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:51:54.389531"
+  "fetched_at": "2026-08-14T13:54:07.034531"
 }

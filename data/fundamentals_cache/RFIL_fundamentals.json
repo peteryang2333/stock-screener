@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RFIL",
-    "fetch_date": "2026-08-07T13:39:06.356445",
+    "fetch_date": "2026-08-14T13:41:18.677647",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 18910000.0,
       "2025-07-31 00:00:00": 19790000.0,
@@ -34,5 +34,5 @@
     "inventory_to_sales_ratio": 0.698,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:39:06.357879"
+  "fetched_at": "2026-08-14T13:41:18.679332"
 }

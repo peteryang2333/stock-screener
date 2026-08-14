@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HLIO",
-    "fetch_date": "2026-08-06T14:19:03.253136",
+    "fetch_date": "2026-08-14T13:20:17.615470",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 195500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.836,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:19:03.254860"
+  "fetched_at": "2026-08-14T13:20:17.617237"
 }

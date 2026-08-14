@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SLAB",
-    "fetch_date": "2026-08-07T13:42:51.881554",
+    "fetch_date": "2026-08-14T13:45:03.952799",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 177714000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.484,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:42:51.883040"
+  "fetched_at": "2026-08-14T13:45:03.954735"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GLPI",
-    "fetch_date": "2026-08-06T14:16:45.388728",
+    "fetch_date": "2026-08-14T13:17:59.524533",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 77.48,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:16:45.390637"
+  "fetched_at": "2026-08-14T13:17:59.525888"
 }

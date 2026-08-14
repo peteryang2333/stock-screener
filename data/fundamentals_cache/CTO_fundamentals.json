@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CTO",
-    "fetch_date": "2026-08-06T14:07:16.555798",
+    "fetch_date": "2026-08-14T13:08:30.594295",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 35811000.0,
@@ -29,5 +29,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:07:16.557222"
+  "fetched_at": "2026-08-14T13:08:30.596227"
 }

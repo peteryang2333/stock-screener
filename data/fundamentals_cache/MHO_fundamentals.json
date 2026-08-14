@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MHO",
-    "fetch_date": "2026-08-07T13:27:30.178317",
+    "fetch_date": "2026-08-14T13:29:42.259036",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1162592000.0,
       "2025-09-30 00:00:00": 1131791000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 3.219,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:27:30.179776"
+  "fetched_at": "2026-08-14T13:29:42.260768"
 }

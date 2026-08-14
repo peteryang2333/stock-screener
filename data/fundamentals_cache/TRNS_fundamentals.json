@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TRNS",
-    "fetch_date": "2026-08-07T13:47:53.710045",
+    "fetch_date": "2026-08-14T13:50:05.146615",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 76424000.0,
       "2025-09-30 00:00:00": 82272000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.159,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:47:53.711546"
+  "fetched_at": "2026-08-14T13:50:05.148365"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WPC",
-    "fetch_date": "2026-08-07T13:52:44.613457",
+    "fetch_date": "2026-08-14T13:54:57.290693",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 430777000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 51.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:52:44.614615"
+  "fetched_at": "2026-08-14T13:54:57.292571"
 }

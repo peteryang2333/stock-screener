@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "HUM",
-    "fetch_date": "2026-08-06T14:20:02.479276",
+    "fetch_date": "2026-08-14T13:21:16.892002",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 32388000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": 27.050997782705117,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:20:02.480010"
+  "fetched_at": "2026-08-14T13:21:16.893232"
 }

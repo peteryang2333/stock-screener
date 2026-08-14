@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FELE",
-    "fetch_date": "2026-08-06T14:13:30.730194",
+    "fetch_date": "2026-08-14T13:14:45.609647",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 587434000.0,
       "2025-09-30 00:00:00": 581714000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.96,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:13:30.733587"
+  "fetched_at": "2026-08-14T13:14:45.611381"
 }

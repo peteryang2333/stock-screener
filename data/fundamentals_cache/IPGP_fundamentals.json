@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IPGP",
-    "fetch_date": "2026-08-06T14:21:58.437892",
+    "fetch_date": "2026-08-14T13:23:12.905729",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 1.187,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:21:58.439667"
+  "fetched_at": "2026-08-14T13:23:12.907455"
 }

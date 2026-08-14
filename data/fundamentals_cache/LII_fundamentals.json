@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LII",
-    "fetch_date": "2026-08-07T13:24:37.414025",
+    "fetch_date": "2026-08-14T13:26:50.059913",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1500900000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.746,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:24:37.415537"
+  "fetched_at": "2026-08-14T13:26:50.061757"
 }

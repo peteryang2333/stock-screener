@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PM",
-    "fetch_date": "2026-08-07T13:36:05.435994",
+    "fetch_date": "2026-08-14T13:38:17.622116",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 10140000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.022,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:36:05.437511"
+  "fetched_at": "2026-08-14T13:38:17.623844"
 }

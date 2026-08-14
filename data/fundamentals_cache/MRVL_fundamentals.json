@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MRVL",
-    "fetch_date": "2026-08-07T13:28:35.513618",
+    "fetch_date": "2026-08-14T13:30:47.487152",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 1895300000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.579,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:28:35.515082"
+  "fetched_at": "2026-08-14T13:30:47.488893"
 }

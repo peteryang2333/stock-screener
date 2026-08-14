@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "RIGL",
-    "fetch_date": "2026-08-07T13:39:22.360108",
+    "fetch_date": "2026-08-14T13:41:34.756227",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 101685000.0,
       "2025-09-30 00:00:00": 69462000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.183,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:39:22.361596"
+  "fetched_at": "2026-08-14T13:41:34.757975"
 }

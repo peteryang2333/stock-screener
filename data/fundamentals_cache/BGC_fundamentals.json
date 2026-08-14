@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BGC",
-    "fetch_date": "2026-08-06T13:59:48.792992",
+    "fetch_date": "2026-08-14T13:01:01.251647",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 652611000.0,
       "2025-06-30 00:00:00": 768736000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:59:48.794403"
+  "fetched_at": "2026-08-14T13:01:01.253033"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NFG",
-    "fetch_date": "2026-08-07T13:30:15.405544",
+    "fetch_date": "2026-08-14T13:32:27.362594",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 531830000.0,
       "2025-09-30 00:00:00": 466279000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.123,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:30:15.407013"
+  "fetched_at": "2026-08-14T13:32:27.364264"
 }

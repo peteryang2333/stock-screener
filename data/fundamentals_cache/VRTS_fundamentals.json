@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "VRTS",
-    "fetch_date": "2026-08-07T13:51:14.862175",
+    "fetch_date": "2026-08-14T13:53:26.997275",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 216851000.0,
       "2025-06-30 00:00:00": 209492000.0,
       "2025-09-30 00:00:00": 215148000.0,
       "2025-12-31 00:00:00": 206402000.0,
       "2026-03-31 00:00:00": 198077000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 199948000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.9445821574438222,
+    "revenue_yoy_change": -4.555782559715884,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 6.12,
       "2025-09-30 00:00:00": 4.65,
       "2025-12-31 00:00:00": 5.17,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 536.1904761904761,
     "eps_yoy_change": 9.150326797385615,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 48.75,
+    "margin_change": 1.87,
+    "operating_margin": 11.87,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:51:14.863366"
+  "fetched_at": "2026-08-14T13:53:26.998657"
 }

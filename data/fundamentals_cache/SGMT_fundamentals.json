@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SGMT",
-    "fetch_date": "2026-08-07T13:42:08.370481",
+    "fetch_date": "2026-08-14T13:44:20.873111",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 0.0,
       "2025-06-30 00:00:00": 0.0,
@@ -23,5 +23,5 @@
     "operating_margin": 0,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:42:08.371359"
+  "fetched_at": "2026-08-14T13:44:20.874089"
 }

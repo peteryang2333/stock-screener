@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CB",
-    "fetch_date": "2026-08-06T14:02:59.188467",
+    "fetch_date": "2026-08-14T13:04:12.331461",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 14881000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -0.6802721088435351,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T14:02:59.189187"
+  "fetched_at": "2026-08-14T13:04:12.332101"
 }

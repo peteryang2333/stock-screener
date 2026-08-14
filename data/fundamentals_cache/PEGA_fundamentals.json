@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PEGA",
-    "fetch_date": "2026-08-07T13:35:06.349568",
+    "fetch_date": "2026-08-14T13:37:18.743846",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 384512000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 4.6,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:35:06.350731"
+  "fetched_at": "2026-08-14T13:37:18.745156"
 }

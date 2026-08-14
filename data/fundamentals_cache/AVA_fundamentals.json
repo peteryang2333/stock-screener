@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AVA",
-    "fetch_date": "2026-08-06T13:57:57.017445",
+    "fetch_date": "2026-08-14T12:59:09.252133",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 617000000.0,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:57:57.019172"
+  "fetched_at": "2026-08-14T12:59:09.253882"
 }

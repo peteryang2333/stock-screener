@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MPTI",
-    "fetch_date": "2026-08-07T13:28:20.339175",
+    "fetch_date": "2026-08-14T13:30:32.195518",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 12732000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.705,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-07T13:28:20.340680"
+  "fetched_at": "2026-08-14T13:30:32.197248"
 }
