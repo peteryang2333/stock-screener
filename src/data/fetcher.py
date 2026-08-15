@@ -261,44 +261,59 @@ class YahooFinanceFetcher:
             if cached_data is not None and isinstance(cached_data, pd.DataFrame):
                 return cached_data
 
-        # Fetch from API
+        # Fetch from API (yfinance, with stockanalysis.com fallback on failure)
         logger.info(f"Fetching price history for {ticker} (period={period}, interval={interval})")
-        stock = self._fetch_with_retry(ticker)
+        hist = self._fetch_price_yf_or_fallback(ticker, period, interval)
 
-        if stock is None:
+        if hist is None or hist.empty:
             logger.error(f"Could not fetch price history for {ticker}")
             return pd.DataFrame()
 
-        try:
-            # Fetch historical data
-            hist = stock.history(period=period, interval=interval)
-
-            if hist.empty:
-                logger.warning(f"No price history data available for {ticker}")
-                return pd.DataFrame()
-
-            # Clean up the DataFrame - keep DatetimeIndex for consistency with git_fetcher
-            # DO NOT reset_index() - we want to preserve the DatetimeIndex from yfinance
-            hist.columns = [col.capitalize() for col in hist.columns]
-
-            # Ensure index is DatetimeIndex (yfinance should provide this)
-            if not isinstance(hist.index, pd.DatetimeIndex):
-                logger.warning(f"{ticker}: yfinance returned non-DatetimeIndex: {type(hist.index)}")
-                return pd.DataFrame()
-
-            # Select only OHLCV columns (no 'Date' column - it's the index)
-            available_cols = ['Open', 'High', 'Low', 'Close', 'Volume']
-            hist = hist[[col for col in available_cols if col in hist.columns]]
-
-            # Cache the results
-            self._save_to_cache(hist, cache_path)
-
-            logger.info(f"Successfully fetched {len(hist)} price records for {ticker}")
-            return hist
-
-        except Exception as e:
-            logger.error(f"Error fetching price history for {ticker}: {e}")
+        if not isinstance(hist.index, pd.DatetimeIndex):
+            logger.warning(f"{ticker}: non-DatetimeIndex returned, aborting")
             return pd.DataFrame()
+
+        # Cache the results
+        self._save_to_cache(hist, cache_path)
+        logger.info(f"Successfully fetched {len(hist)} price records for {ticker}")
+        return hist
+
+    def _try_yfinance_price(self, ticker: str, period: str, interval: str):
+        """Attempt yfinance price fetch; return normalized DataFrame or None."""
+        try:
+            stock = self._fetch_with_retry(ticker)
+            if stock is None:
+                return None
+            hist = stock.history(period=period, interval=interval)
+            if hist is None or hist.empty:
+                return None
+            hist.columns = [col.capitalize() for col in hist.columns]
+            if not isinstance(hist.index, pd.DatetimeIndex):
+                if 'Date' in hist.columns:
+                    hist = hist.set_index('Date')
+                else:
+                    return None
+            cols = [c for c in ['Open', 'High', 'Low', 'Close', 'Volume'] if c in hist.columns]
+            return hist[cols]
+        except Exception as e:
+            logger.warning(f"{ticker}: yfinance price fetch error: {e}")
+            return None
+
+    def _fetch_price_yf_or_fallback(self, ticker: str, period: str, interval: str):
+        """Fetch price history from yfinance, falling back to stockanalysis.com
+        automatically when yfinance fails (e.g. YFRateLimitError / HTTP 429)."""
+        hist = self._try_yfinance_price(ticker, period, interval)
+        if hist is not None and not hist.empty:
+            return hist
+        logger.warning(f"{ticker}: yfinance price unavailable, using stockanalysis fallback")
+        try:
+            from .stockanalysis_fallback import fetch_price_history as sa_fetch
+            fb = sa_fetch(ticker, period, interval)
+            if fb is not None and not fb.empty:
+                return fb
+        except Exception as fe:
+            logger.error(f"{ticker}: stockanalysis fallback failed: {fe}")
+        return pd.DataFrame()
 
     def fetch_multiple(
         self,

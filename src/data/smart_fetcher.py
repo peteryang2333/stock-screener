@@ -127,19 +127,27 @@ class SmartDataFetcher:
                 stock = yf.Ticker(ticker)
                 # Fetch 1 year of data (~250 trading days)
                 data = stock.history(period='1y', interval='1d')
-
-                if not data.empty:
+                if data is not None and not data.empty:
                     # Save to cache
                     self._save_price_cache(ticker, data)
                     logger.info(f"{ticker}: Full fetch successful ({len(data)} days)")
                     return data
-                else:
-                    logger.warning(f"{ticker}: Full fetch returned no data")
-                    return pd.DataFrame()
-
             except Exception as e:
-                logger.error(f"{ticker}: Full fetch failed: {e}")
-                return pd.DataFrame()
+                logger.warning(f"{ticker}: yfinance full fetch failed: {e}")
+
+            # Fallback: stockanalysis.com (when Yahoo is rate-limited)
+            try:
+                from .stockanalysis_fallback import fetch_price_history as sa_fetch
+                fb = sa_fetch(ticker, period='1y', interval='1d')
+                if fb is not None and not fb.empty:
+                    self._save_price_cache(ticker, fb)
+                    logger.info(f"{ticker}: stockanalysis fallback successful ({len(fb)} days)")
+                    return fb
+            except Exception as fe:
+                logger.error(f"{ticker}: stockanalysis fallback failed: {fe}")
+
+            logger.warning(f"{ticker}: Full fetch and fallback both failed")
+            return pd.DataFrame()
 
     def fetch_fundamentals_smart(self, ticker: str) -> Dict:
         """Fetch fundamentals with earnings-aware caching.
