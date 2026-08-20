@@ -8534,5 +8534,25 @@
   "TARA": {
     "last_updated": "2026-08-18T13:28:52.226611",
     "in_earnings_season": false
+  },
+  "FRPH": {
+    "last_updated": "2026-08-20T12:59:10.234478",
+    "in_earnings_season": false
+  },
+  "IA": {
+    "last_updated": "2026-08-20T13:04:37.613954",
+    "in_earnings_season": false
+  },
+  "NAVN": {
+    "last_updated": "2026-08-20T13:14:47.526994",
+    "in_earnings_season": false
+  },
+  "PMTS": {
+    "last_updated": "2026-08-20T13:21:17.776607",
+    "in_earnings_season": false
+  },
+  "TSQ": {
+    "last_updated": "2026-08-20T13:33:17.760784",
+    "in_earnings_season": false
   }
 }
