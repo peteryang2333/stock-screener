@@ -8558,5 +8558,21 @@
   "XZO": {
     "last_updated": "2026-08-24T13:39:38.966931",
     "in_earnings_season": false
+  },
+  "BETA": {
+    "last_updated": "2026-08-25T12:43:55.760995",
+    "in_earnings_season": false
+  },
+  "OESX": {
+    "last_updated": "2026-08-25T13:17:42.240545",
+    "in_earnings_season": false
+  },
+  "REAX": {
+    "last_updated": "2026-08-25T13:23:57.438346",
+    "in_earnings_season": false
+  },
+  "UI": {
+    "last_updated": "2026-08-25T13:34:21.541395",
+    "in_earnings_season": false
   }
 }
