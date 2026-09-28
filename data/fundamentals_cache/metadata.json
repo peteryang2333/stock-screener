@@ -8686,5 +8686,21 @@
   "NTRB": {
     "last_updated": "2026-09-25T17:00:32.523829",
     "in_earnings_season": false
+  },
+  "CDNL": {
+    "last_updated": "2026-09-28T19:18:52.041490",
+    "in_earnings_season": false
+  },
+  "SAMG": {
+    "last_updated": "2026-09-28T19:56:56.204608",
+    "in_earnings_season": false
+  },
+  "WSBF": {
+    "last_updated": "2026-09-28T20:08:54.490466",
+    "in_earnings_season": false
+  },
+  "XRN": {
+    "last_updated": "2026-09-28T20:09:40.275214",
+    "in_earnings_season": false
   }
 }
