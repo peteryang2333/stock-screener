@@ -15,6 +15,10 @@ on:
         default: false
 
 jobs:
+
+concurrency:
+  group: screening
+  cancel-in-progress: false
   screen-stocks:
     runs-on: ubuntu-latest
     timeout-minutes: 150
