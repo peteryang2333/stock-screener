@@ -14,11 +14,15 @@ on:
         type: boolean
         default: false
 
-jobs:
-
+# 2026-11-14 修复：concurrency 是顶层键，之前误写在 jobs: 下面，
+# 导致 screen-stocks 被吞进 concurrency、jobs 实际为空，调度自 2026-10-08 起零 job 可跑。
 concurrency:
   group: screening
   cancel-in-progress: false
+
+# 说明：本工作流只做扫描与落盘（daily_scans / fundamentals_cache），
+# 不调用 src/notifications 下的 email/slack notifier，恢复调度不会新增任何邮件或飞书推送。
+jobs:
   screen-stocks:
     runs-on: ubuntu-latest
     timeout-minutes: 150
@@ -69,6 +73,37 @@ concurrency:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: 数据新鲜度前置检查（fail-closed）
+        # 2026-11-14：Yahoo 限流时旧版会静默用旧价跑满 150 分钟并写出「当日」报告。
+        # 现在先用 SPY 探测数据源，拿不到或明显滞后就直接失败，绝不产出陈旧扫描结果。
+        run: |
+          python3 - <<'PY'
+          import sys, json, datetime, pathlib
+          import yfinance as yf
+          try:
+              h = yf.Ticker("SPY").history(period="10d", interval="1d")
+          except Exception as e:
+              print("[FATAL] yfinance 不可用 (%s: %s)，今日跳过扫描，不写陈旧报告" % (type(e).__name__, e))
+              sys.exit(2)
+          if h is None or h.empty:
+              print("[FATAL] yfinance 返回空数据，今日跳过扫描")
+              sys.exit(2)
+          last = h.index[-1].date()
+          gap = (datetime.date.today() - last).days
+          print("SPY 最后一根: %s | 距今 %d 自然日" % (last, gap))
+          if gap > 4:
+              print("[FATAL] 行情滞后超过 4 自然日（含周末/假日容忍），拒绝用旧价扫描")
+              sys.exit(2)
+          p = pathlib.Path("data/logs")
+          p.mkdir(parents=True, exist_ok=True)
+          (p / "preflight.json").write_text(json.dumps({
+              "checked_at_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "spy_last_bar": str(last), "lag_days": gap,
+              "source": "yfinance", "gate": "fail_closed"
+          }, indent=2), encoding="utf-8")
+          print("OK preflight passed")
+          PY
 
       - name: Run optimized stock screening
         env:
