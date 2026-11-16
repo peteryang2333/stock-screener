@@ -1,3 +1,5 @@
+> **ACTIVE REPO:** GitHub has disabled Actions on this repository at the platform level (all runs stopped 2026-10-08; even manual/push triggers are rejected). The repaired scanner now runs at [`peteryang2333/stock-screener-v2`](https://github.com/peteryang2333/stock-screener-v2). This repo is kept for history only.
+
 # Intelligent Stock Screener
 
 > **A production-grade systematic trading system for identifying high-probability stock setups using phase-based technical analysis, relative strength momentum, and smart fundamental screening.**
